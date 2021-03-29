@@ -19,23 +19,17 @@ def tweetData(t):
             "retweets_count": int(t.retweets_count),
             "likes_count": int(t.likes_count),
             "hashtags": t.hashtags,
-            "cashtags": t.cashtags,
             "link": t.link,
             "retweet": t.retweet,
             "quote_url": t.quote_url,
             "video": t.video,
             "thumbnail": t.thumbnail,
-            "near": t.near,
-            "geo": t.geo,
             "source": t.source,
             "user_rt_id": t.user_rt_id,
             "user_rt": t.user_rt,
             "retweet_id": t.retweet_id,
             "reply_to": t.reply_to,
             "retweet_date": t.retweet_date,
-            "translate": t.translate,
-            "trans_src": t.trans_src,
-            "trans_dest": t.trans_dest,
             }
     return data
 
@@ -60,23 +54,18 @@ def tweetFieldnames():
             "retweets_count",
             "likes_count",
             "hashtags",
-            "cashtags",
             "link",
             "retweet",
             "quote_url",
             "video",
             "thumbnail",
             "near",
-            "geo",
             "source",
             "user_rt_id",
             "user_rt",
             "retweet_id",
             "reply_to",
             "retweet_date",
-            "translate",
-            "trans_src",
-            "trans_dest"
             ]
     return fieldnames
 
